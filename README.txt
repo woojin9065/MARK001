@@ -1,0 +1,14 @@
+===========================================================
+01. START
+02. git init --> 여기를 git으로 사용합니다
+03. git config --> git사용을 위한 기본적인 설정을 합니다 (user.name, user.email)
+04. git add --> 해당 커밋에 소스(파일등)를 추가합니다. | 커밋을 생성하기 직전에 합니다
+05. git commmit --> 커밋을 생성합니다 (-m "#msg" : 커밋생성시 메세지(msg)를 적는 argument입니다)
+06. git log --> git의 로그를 확인합니다
+07. git checkout --> 원하는 버전의 커밋을 가져옵니다 (ex. git checkout 1234567 : 커밋의 첫7자리로 특정합니다)
+08. git remote add origin #addr 원격저장소의 주소를 등록합니다
+09. git push origin master 원격저장소에 커밋을 push합니다 (git push -f origin master : '-f'는 강제push agr입니다)
+10. git clone 원격 저장소의 코드와 버전정보를 내 로컬저장소로 내려받습니다.
+	git clone #addr .  	로컬저장소에 저장시 마지막 문장마침부호인 온점'.'이 있다면 원격저장소의 repo이름을 폴더명으로 하는 디렉토리를 추가하지 않습니다 
+				(반대로 말해 .이 없다면 repo명을 폴더명으로 하는 디렉토리구조가 됩니다) 
+				@온점은 주소후 한칸띄우고 써줍니다(중요중요)
